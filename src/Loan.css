@@ -1,0 +1,69 @@
+.account-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    padding:50px;
+    margin-top: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+   
+   .loan-type,
+   .loan-interest,
+   .loan-amount,
+   .due-date,
+   .terms-conditions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+   }
+   
+   .loan-type select {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+   }
+   
+   .loan-amount input {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+   }
+   
+   .due-date input {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+   }
+   
+   .terms-conditions input[type="checkbox"] {
+    margin-right: 5px;
+   }
+   
+   button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 150px;
+   }
+   
+   button:hover {
+    background-color: #0056b3;
+   }
+   .header{
+    background-color: #007bff; 
+    margin-top : -30px;
+    margin-bottom:"30px";
+    border-radius: 20px;
+    height: 60px;
+    text-align: center;
+    
+   }

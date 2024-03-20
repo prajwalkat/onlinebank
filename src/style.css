@@ -1,0 +1,29 @@
+.faq-page {
+    margin: 50px auto;
+    max-width: 600px;
+  }
+  
+  .faq-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-us-page {
+    margin: 50px auto;
+    max-width: 800px;
+  }
+  
+  .about-us-page h1,
+  .about-us-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .about-us-page ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .about-us-page ul li {
+    margin-bottom: 10px;
+  }
+  

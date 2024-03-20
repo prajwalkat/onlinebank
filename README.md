@@ -1,4 +1,82 @@
-# Getting Started with Create React App
+# E-Banking Project
+
+## Overview
+
+The E-Banking project aims to develop an online banking system that facilitates transactions, account management, and customer service for both customers and employees. The system provides a secure platform for users to perform various banking operations conveniently.
+
+## Entities
+
+### 1. Customer
+
+The Customer entity represents individuals or entities who hold accounts with the bank. Customers interact with the system to manage their accounts, conduct transactions, and access banking services.
+
+#### Attributes
+
+- **CustomerID**: Unique identifier for each customer.
+- **Name**: Full name of the customer.
+- **DateOfBirth**: Date of birth of the customer.
+- **Address**: Residential address of the customer.
+- **ContactNumber**: Contact number of the customer.
+- **Email**: Email address of the customer.
+- **Username**: Unique username chosen by the customer for login.
+- **Password**: Secure password chosen by the customer for login.
+- **AccountType**: Type of account (e.g., savings, checking, business).
+- **AccountNumber**: Unique identifier for the customer's account.
+- **Balance**: Current balance in the customer's account.
+
+#### Functionalities
+
+- **Login**: Customers can log in using their username and password.
+- **View Account**: Customers can view their account details, including balance and transaction history.
+- **Transfer Funds**: Customers can transfer funds between their accounts or to other accounts.
+- **Pay Bills**: Customers can pay bills online.
+- **Update Profile**: Customers can update their personal information.
+- **Change Password**: Customers can change their login password.
+
+### 2. Employee
+
+The Employee entity represents staff members of the bank who have access to administrative functionalities and customer support features.
+
+#### Attributes
+
+- **EmployeeID**: Unique identifier for each employee.
+- **Name**: Full name of the employee.
+- **DateOfBirth**: Date of birth of the employee.
+- **Address**: Residential address of the employee.
+- **ContactNumber**: Contact number of the employee.
+- **Email**: Email address of the employee.
+- **Username**: Unique username chosen by the employee for login.
+- **Password**: Secure password chosen by the employee for login.
+- **Role**: Role of the employee within the bank (e.g., manager, teller, customer service representative).
+
+#### Functionalities
+
+- **Login**: Employees can log in using their username and password.
+- **Manage Accounts**: Employees can view and manage customer accounts.
+- **Approve Transactions**: Employees can approve or reject pending transactions.
+- **Customer Support**: Employees can provide assistance to customers regarding account-related queries or issues.
+- **Generate Reports**: Employees can generate reports on account activities, transactions, etc.
+- **Update Profile**: Employees can update their personal information.
+- **Change Password**: Employees can change their login password.
+
+## System Architecture
+
+The E-Banking system will be built using a client-server architecture. The backend will be developed using a programming language such as Java or Python, with a relational database (e.g., MySQL) for data storage. The frontend will be designed using HTML, CSS, and JavaScript for a user-friendly interface.
+
+### Components
+
+1. **Frontend**: The user interface accessible to customers and employees through web browsers or mobile applications.
+2. **Backend Server**: The server-side logic responsible for processing requests, executing business logic, and interacting with the database.
+3. **Database**: Stores customer and employee information, account details, transaction history, etc.
+4. **Security Layer**: Implements encryption, authentication, and authorization mechanisms to ensure data security and prevent unauthorized access.
+
+## Conclusion
+
+The E-Banking project aims to provide a convenient and secure platform for customers to perform banking activities online while enabling employees to efficiently manage accounts and provide support. By leveraging modern technologies and best practices, the system will offer a seamless banking experience for all users.
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
